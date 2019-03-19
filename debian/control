@@ -1,0 +1,35 @@
+Source: meta-enterprise
+Maintainer: Coral <coral-support@google.com>
+Build-Depends: debhelper
+Section: metapackages
+Priority: optional
+
+Package: enterprise-core
+Priority: optional
+Depends: bluetooth,
+         bluez,
+         edgetpudemo,
+         imx-board-audio,
+         imx-board-tools,
+         imx-board-wlan,
+         imx-firmware,
+         imx-gpu-viv,
+         imx-gst1.0-plugin,
+         imx-vpu-hantro,
+         imx-vpuwrap,
+         libbluetooth3,
+         libdrm-vivante,
+         linux-image-4.9.51-imx,
+         mendel-core,
+         python3-edgetpu,
+         python3-edgetpuvision,
+         uboot-imx
+Architecture: any
+Description: Metapackage for core Mendel packages for Enterprise
+
+Package: enterprise-gui
+Priority: optional
+Depends: enterprise-core,
+         weston-imx
+Architecture: any
+Description: Metapackage for GUI Mendel packages for Enterprise
