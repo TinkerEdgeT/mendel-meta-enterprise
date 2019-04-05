@@ -1,3 +1,9 @@
+meta-enterprise (1-1) mendel-chef; urgency=medium
+
+  * Lintian fixups.
+
+ -- Coral <coral-support@google.com>  Thu, 04 Apr 2019 13:57:00 -0800
+
 meta-enterprise (1-0) mendel-chef; urgency=medium
 
   * Initial release.
