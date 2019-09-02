@@ -23,7 +23,8 @@ Depends: bluetooth,
          mendel-core,
          python3-edgetpu,
          python3-edgetpuvision,
-         uboot-imx
+         uboot-imx,
+         tinker-edge-t
 Architecture: any
 Description: Metapackage for core Mendel packages for Enterprise
 
