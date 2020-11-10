@@ -22,7 +22,6 @@ Depends: bluetooth,
          libdrm-vivante,
          linux-image-4.14.98-imx,
          mendel-core,
-         python3-edgetpu,
          python3-edgetpuvision,
          uboot-imx,
          ${misc:Depends}
